@@ -1,0 +1,60 @@
+.main{
+    @apply
+    flex flex-col justify-center align-middle bg-black h-max;
+}
+
+.arrowback_icon{
+    color: white;
+    @apply
+    transform scale-x-110
+}
+
+.title{
+    font-family: 'Montserrat';
+    @apply
+    w-full text-white text-4xl 
+    text-center py-3 pr-8 font-semibold
+}
+
+.webcam_container{
+    @apply
+    flex flex-row justify-center align-middle rounded-2xl mt-8;
+}
+
+.button_container{
+    @apply
+    p-1 flex justify-center;
+}
+
+.camera_button{
+    @apply
+    bg-zinc-50
+    text-black text-lg w-1/5 h-11 my-5
+    rounded-lg;
+}
+
+.result_container{
+    @apply
+    my-8 ml-5 p-0 h-full w-auto
+    flex justify-center align-middle items-center;
+}
+
+img{
+    height:50%;
+    width:auto;
+    padding:0 !important;
+    margin:0 !important;
+    align:middle;
+}
+
+.result_caption{
+    @apply
+    w-full
+    flex justify-center align-middle
+}
+
+.verified_icon{
+    transform: scale(4);
+    color: #00C853;
+
+}

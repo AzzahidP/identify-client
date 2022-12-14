@@ -1,0 +1,103 @@
+.main{
+    @apply
+    bg-black
+    h-auto w-screen
+    flex flex-col
+    px-8
+}
+
+.section_1{
+    @apply
+    h-screen flex flex-col
+}
+
+    .subsection_1{
+        @apply
+        text-white
+        flex flex-auto flex-col-reverse sm:flex-row
+        h-auto w-full
+        align-middle items-center justify-center
+    }
+
+        .text_container{
+            @apply
+            w-full md:w-1/2
+            flex flex-col
+            align-middle
+            justify-center
+        }
+
+            .text_container>h1{
+                @apply
+                font-bold text-3xl md:text-6xl lg:text-8xl
+                my-1 md:my-5
+            }
+
+            .text_container>p{
+                @apply
+                text-sm md:text-lg
+                my-1 md:my-5
+            }
+
+            .text_container>a{
+                @apply
+                w-1/3 h-10 my-3 sm:my-8 px-0 my-auto
+                bg-zinc-50 rounded-md text-center 
+                flex align-middle justify-center items-center
+                text-xs md:text-xl text-black
+            }
+
+        .figure_container{
+            @apply
+            w-screen sm:w-1/2 h-48 sm:h-full
+            flex align-middle items-center justify-center
+        }
+
+            .figure_container>img{
+                @apply
+                h-48 sm:h-max
+            }
+
+    footer{
+        @apply
+        text-white mx-auto
+        text-lg flex flex-col justify-center
+    }
+
+        footer>a{
+            @apply
+            flex items-center justify-center
+        }
+
+            footer>a>.arrow {
+                @apply
+                transform scale-150 mx-auto
+            }
+
+.section_2{
+    @apply
+    h-screen w-full flex flex-col py-3
+}
+
+    .section_2>.title{
+        @apply
+        text-white mx-auto font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-6xl
+        mb-6 mt-14 sm:mb-1 sm:mt-10
+    }
+
+    .section_2>.figure_container{
+        @apply
+        w-full h-full
+        flex-col sm:flex-row align-middle justify-evenly
+    }
+
+        .section_2>.figure_container>.figure{
+            @apply
+            h-full w-1/3 flex flex-col 
+            justify-center items-center
+        }
+
+            .section_2>.figure_container>.figure>h2{
+                @apply
+                text-white text-lg sm:text-3xl my-3 align-top text-center
+            }
